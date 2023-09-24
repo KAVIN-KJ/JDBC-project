@@ -3,9 +3,11 @@ import java.sql.*;
 public class UserLogin {
 		public static void main(String args[]) throws SQLException {
 			Scanner in = new Scanner(System.in);
-			String url = "jdbc:mysql://sql12.freesqldatabase.com:3306/?user=sql12646552";
-			String user = "sql12646552";
-			String pwd = "gA13G5dLUa";
+			// the credentials of the DB is hidden for security reasons
+			String url = "anonymous";
+			String user = "anonymous";
+			String pwd = "anonymous";
+			// but the code will work for the URL user and password specified by the developer
 			Connection con = null;
 			try {
 			con = DriverManager.getConnection(url,user,pwd);

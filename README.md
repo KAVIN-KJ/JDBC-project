@@ -1,5 +1,5 @@
 # JDBC-project
-Console based login and signup program using JDBC
+Console based login and signup program using JDBC.
 
 This is a simple JDBC project that gets a username and a password
 and stores it in my database. If you are to run this code in your machine,
